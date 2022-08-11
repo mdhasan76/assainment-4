@@ -1,3 +1,4 @@
+// Q-1 Radian To Degree Convert
 function radianToDegree(radian) {
     if ((typeof radian) != 'number') {
         return "plase enter Number type Value"
@@ -7,7 +8,7 @@ function radianToDegree(radian) {
 }
 
 
-// isJavaScriptFile
+// Q-2 isJavaScriptFile
 function isJavaScriptFile(string) {
     if ((typeof string) != 'string') {
         return "please enter text"

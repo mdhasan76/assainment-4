@@ -1,3 +1,4 @@
+// Q-3 Oil Cost 
 function oilPrice(diesel, petrol, octane) {
     if ((typeof diesel != 'number') || (typeof petrol) != 'number' || (typeof octane != 'number')) {
         return 'Plase enter Number type Value';
