@@ -15,9 +15,4 @@ function isJavaScriptFile(string) {
     const validFile = string.endsWith('.js');
     return validFile;
 }
-let geti = 'hasam';
-console.log(isJavaScriptFile(geti));
-console.log(isJavaScriptFile('index.js'));
-console.log(isJavaScriptFile('img.js.png'));
-console.log(isJavaScriptFile('img.jpg.js'));
 
