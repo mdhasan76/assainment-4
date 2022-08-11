@@ -1,3 +1,4 @@
+// Q-4 Bus Fare rest man Cost 
 function publicBusFare(man) {
     if ((typeof man) !== 'number') {
         return 'plase enter number type value';
