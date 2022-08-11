@@ -16,21 +16,3 @@ function isBestFriend(object1, object2) {
         }
     }
 }
-
-const obj1 = {
-    name: 'doe',
-    friend: 'alex'
-}
-const arr = [1, 3, 4];
-// console.log(Array.isArray(arr));
-const obj2 = {
-    name: 'alex',
-    friend: 'doe'
-}
-const obj3 = {
-    name: 'alex',
-    friend: 'tom'
-}
-console.log(isBestFriend(obj1, arr))
-console.log(isBestFriend(obj1, obj2))
-console.log(isBestFriend(obj1, obj3))
