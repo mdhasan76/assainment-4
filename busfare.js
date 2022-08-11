@@ -12,4 +12,4 @@ console.log(publicBusFare(50));
 console.log(publicBusFare('hasan'));
 console.log(publicBusFare(arr));
 console.log(publicBusFare(235));
-// console.log(publicBusFare(365));
+console.log(publicBusFare(365));
