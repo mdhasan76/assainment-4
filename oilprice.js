@@ -12,11 +12,3 @@ function oilPrice(diesel, petrol, octane) {
     const totalCost = dieselCost + petrolCost + octaneCost;
     return totalCost;
 }
-
-
-let get = 'hasan';
-console.log(oilPrice(1, 1, 1));
-console.log(oilPrice(30, get, 10));
-console.log(oilPrice(1, 0, 2));
-console.log(oilPrice(0, 2, 3));
-console.log(oilPrice(0, 0, 0));
